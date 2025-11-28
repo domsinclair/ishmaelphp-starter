@@ -1,0 +1,39 @@
+# OS & System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE & Tools
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Dependencies
+/vendor/
+
+# Environment & Local Configuration
+.env
+.env.backup
+.env.test
+phpunit.xml
+
+# Build Output & Documentation
+build/
+site/
+
+# Logs
+*.log
+
+# Storage (Ignore contents but keep directory structure via existing .gitignores)
+storage/cache/*
+!storage/cache/.gitignore
+
+storage/logs/*
+!storage/logs/.gitignore
+
+storage/sessions/*
+!storage/sessions/.gitignore
