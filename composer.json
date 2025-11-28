@@ -1,0 +1,74 @@
+{
+  "name": "ishmaelphp/ishmaelphp-starter",
+  "description": "IshmaelPHP Starter Application (private beta seed)",
+  "type": "project",
+  "license": "proprietary",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=8.2",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "ext-pdo": "*",
+    "ishmael/framework": "dev-main"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/domsinclair/IshmaelPHP-Core"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Modules\\": "Modules/"
+    }
+  },
+  "scripts": {
+    "test:coverage": "@php vendor/bin/phpunit -c phpunit.xml.dist --coverage-text --coverage-clover build/logs/clover.xml",
+    "analyse": "@php vendor/bin/phpstan analyse -c phpstan.neon.dist",
+    "cs:check": "@php vendor/bin/phpcs -q",
+    "cs:fix": "@php vendor/bin/phpcbf -q",
+    "docs:gen": "@php bin/docgen",
+    "docs:api": "@php bin/docgen",
+    "docs:build": "python -m mkdocs build --strict -f mkdocs.yml",
+    "docs:serve": "python -m mkdocs serve -a 127.0.0.1:8001 -f mkdocs.yml",
+    "docs:check": [
+      "@docs:gen",
+      "@docs:api",
+      "@docs:build"
+    ],
+    "docs:all": [
+      "@docs:check",
+      "@docs:serve"
+    ],
+    "post-create-project-cmd": [
+      "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
+      "@php vendor/bin/ish key:generate || true",
+      "@php -r \"@mkdir('storage/logs', 0777, true); @mkdir('storage/cache', 0777, true); @mkdir('storage/sessions', 0777, true);\""
+    ],
+    "post-install-cmd": [
+      "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
+      "@php vendor/bin/ish key:generate || true",
+      "@php -r \"@mkdir('storage/logs', 0777, true); @mkdir('storage/cache', 0777, true); @mkdir('storage/sessions', 0777, true);\""
+    ],
+    "post-update-cmd": [
+      "@php vendor/bin/ish key:generate || true"
+    ],
+    "serve": [
+      "@php -S localhost:8080 -t public"
+    ]
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "0.15-dev"
+    }
+  },
+  "suggest": {
+    "ishmaelphp/auth-module": "Run 'ish make:auth' to install and scaffold authentication.",
+    "ishmaelphp/security-module": "Run 'ish make:security' to install headers/CSP/session hardening."
+  }
+}
