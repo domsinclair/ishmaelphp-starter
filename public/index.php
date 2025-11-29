@@ -17,7 +17,7 @@ if (!defined('ISH_APP_BASE')) {
 if (!defined('ISH_BOOTSTRAP_ONLY')) {
     define('ISH_BOOTSTRAP_ONLY', true);
 }
-require __DIR__ . '/../vendor/ishmaelphp/core/bootstrap/app.php';
+    require __DIR__ . '/../vendor/ishmael/framework/bootstrap/app.php';
 
 // 4) Start the tiny Kernel and handle the request
 use Ishmael\Core\App;
