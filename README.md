@@ -55,6 +55,12 @@ This starter expects Ishmael Core to be installed via Composer. For private beta
 Optional (local development linking to your local Core checkout):
 - You can temporarily add a Composer path repository pointing to your local `IshmaelPHP-Core` to iterate without publishing a tag. See the commented example in `composer.json`.
 
+## Using PHPStorm as your ide?
+
+If you are using phpStorm then Ismael php ships with a command line tool.
+
+Look in the Docs folder for this document [PhpStorm CLI Integration](Docs/Core/guide/phpstorm-cli-integration.md)
+
 ## Next steps
 
 - After you confirm the starter runs, we can add the CLI shim commands to offer installation of the Auth and Security modules on demand (`ish make:auth`, `ish make:security`).
