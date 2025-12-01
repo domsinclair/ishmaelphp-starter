@@ -21,6 +21,7 @@ You can link to these from the Starter README.md or your Tutorials.
 
 Commands
 - Run the copy script from the Starter repo root:
+```bash
   PowerShell -ExecutionPolicy Bypass -File .\Docs\copy-core-docs.ps1
-
+```
 If you keep the Starter separate from the Core mono-folder, adjust the $source path in the script.
