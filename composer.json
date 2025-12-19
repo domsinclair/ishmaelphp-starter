@@ -1,8 +1,21 @@
 {
-  "name": "ishmaelphp/ishmaelphp-starter",
-  "description": "IshmaelPHP Starter Application (private beta seed)",
+  "name": "ishmael/ishmaelphp-starter",
+  "description": "IshmaelPHP Starter Application",
+  "version": "0.7.0",
   "type": "project",
-  "license": "proprietary",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dom Sinclair",
+      "email": "dom@viewtolearn.co.uk"
+    }
+  ],
+  "keywords": [
+    "ishmaelphp",
+    "framework",
+    "starter",
+    "skeleton"
+  ],
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
@@ -10,14 +23,8 @@
     "ext-json": "*",
     "ext-mbstring": "*",
     "ext-pdo": "*",
-    "ishmael/framework": "^0.6"
+    "ishmael/framework": "^0.7"
   },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/domsinclair/IshmaelPHP-Core"
-    }
-  ],
 
   "autoload": {
     "psr-4": {
@@ -65,7 +72,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-main": "0.15-dev"
+      "dev-main": "0.7-dev"
     }
   },
   "suggest": {
