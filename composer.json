@@ -70,6 +70,15 @@
   "config": {
     "sort-packages": true
   },
+  "archive": {
+    "exclude": [
+      "/.github",
+      "/.release-please-manifest.json",
+      "/phpunit.xml.dist",
+      "/tests",
+      "/.gitignore"
+    ]
+  },
   "extra": {
     "branch-alias": {
       "dev-main": "0.7-dev"

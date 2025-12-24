@@ -1,0 +1,24 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+
+    # 1. Protect sensitive files and directories from direct access
+    # Even though the rewrite rule below would map them to public/ (where they don't exist),
+    # explicit protection is safer if rewrite rules are modified or bypassed.
+
+    # Block access to specific directories
+    RewriteRule ^(config|storage|vendor|Modules|Docs)/ - [F,L]
+
+    # Block access to dot files and other sensitive files
+    RewriteRule ^(\.env|\.env\.example|composer\.(json|lock)|LICENSE|README\.md|\.gitignore|\.git) - [F,L]
+    RewriteRule ^\..* - [F,L]
+
+    # 2. Redirect all other requests to the public/ directory
+    # This captures the remainder of the URL and passes it to the public folder.
+    # We check if the request is not already for the public directory to avoid loops.
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
