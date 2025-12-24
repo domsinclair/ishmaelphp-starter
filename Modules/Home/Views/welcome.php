@@ -22,6 +22,9 @@
         <p>You should see this page after installing dependencies and serving the <code>public/</code> directory.</p>
         <p>There is also a tiny JSON endpoint at <a href="/home/api"><code>/home/api</code></a>.</p>
         <p class="muted">Docs are available inside <code>Docs/</code> once you copy Core docs using the included script.</p>
+        <p>This page has no css deliberately. One of the features of IshmaelPHP is that you are completely free to choose exactly how you compose your
+            modules. />
+
     </main>
 </body>
 </html>
