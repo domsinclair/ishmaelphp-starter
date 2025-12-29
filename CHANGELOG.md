@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.2](https://github.com/domsinclair/ishmaelphp-starter/compare/v0.7.1...v0.7.2) (2025-12-29)
+
+
+### Bug Fixes
+
+* require mcp server. ([c47538b](https://github.com/domsinclair/ishmaelphp-starter/commit/c47538bafa8c024afb0179537a21827a6e55d8ac))
+
 ## [0.7.1](https://github.com/domsinclair/ishmaelphp-starter/compare/v0.7.0...v0.7.1) (2025-12-24)
 
 
