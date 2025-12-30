@@ -26,6 +26,20 @@ use Ishmael\Core\Http\Request;
 $app = new App();
 $app->boot();
 
+// This ensures the application router sees paths relative to the project root, not the server root.
+    $scriptPath = str_replace('\\', '/', dirname($_SERVER['SCRIPT_NAME'])); // e.g. /ish/public
+    $basePath = dirname($scriptPath); // e.g. /ish
+
+    if ($basePath !== '/' && $basePath !== '.') {
+        if (str_starts_with($_SERVER['REQUEST_URI'], $basePath)) {
+            $_SERVER['REQUEST_URI'] = substr($_SERVER['REQUEST_URI'], strlen($basePath));
+        }
+    }
+// Ensure root is just slash
+    if ($_SERVER['REQUEST_URI'] === '') {
+        $_SERVER['REQUEST_URI'] = '/';
+    }
+
 $request = Request::fromGlobals();
 $response = $app->handle($request);
 
