@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.3](https://github.com/domsinclair/ishmaelphp-starter/compare/v0.7.2...v0.7.3) (2025-12-30)
+
+
+### Bug Fixes
+
+* index.php fixed to correctly handle sub directories on Apache. ([0c00c40](https://github.com/domsinclair/ishmaelphp-starter/commit/0c00c4064f2c146f786f48c834f190920970ff9d))
+
 ## [0.7.2](https://github.com/domsinclair/ishmaelphp-starter/compare/v0.7.1...v0.7.2) (2025-12-29)
 
 
