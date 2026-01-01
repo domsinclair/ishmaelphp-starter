@@ -51,6 +51,13 @@ Unfortunately this is not quite as straightforward for other ide's and you may n
 2. GitHub Copilot
    As of now, GitHub Copilot does not have a native "plug-and-play" discovery mechanism for local MCP servers in the same way JetBrains or specialized Claude extensions do. While Microsoft is moving towards supporting more external "skills" and "extensions," there isn't a single JSON file you can drop into a project root today that will make Copilot automatically start using a local PHP-based MCP server.
 
+### `ide:setup-run-configs`
+This tool automatically sets up IDE "Run Configurations," allowing you to execute `ish` commands directly from your IDE's interface.
+*   **Supported IDEs**: PhpStorm (more coming soon).
+*   **Action**: Generates `.xml` files in `.idea/runConfigurations/` for common tasks like `help`, `migrate`, and `make:module`.
+*   **How to use**: Ask your AI assistant to "Set up my IDE run configurations for Ishmael."
+
+
 ## License
 
 The IshmaelPHP Starter is open-sourced software licensed under the [MIT license](LICENSE).
