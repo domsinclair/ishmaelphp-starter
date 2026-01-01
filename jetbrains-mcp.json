@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "ishmael": {
+      "command": "php",
+      "args": [
+        "vendor/ishmael/mcp-server/bin/ish-mcp"
+      ],
+      "enabled": true
+    }
+  }
+}
