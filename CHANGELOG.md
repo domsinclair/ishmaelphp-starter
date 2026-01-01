@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.4](https://github.com/domsinclair/ishmaelphp-starter/compare/v0.7.3...v0.7.4) (2026-01-01)
+
+
+### Bug Fixes
+
+* Added jetbrains-mcp.json to automate mcp server discovery for Ishmael's MCP in jetbrain's ide's. ([803d525](https://github.com/domsinclair/ishmaelphp-starter/commit/803d5254d25ed9ba4aab4d0c621cbf47436f17f3))
+
 ## [0.7.3](https://github.com/domsinclair/ishmaelphp-starter/compare/v0.7.2...v0.7.3) (2025-12-30)
 
 
