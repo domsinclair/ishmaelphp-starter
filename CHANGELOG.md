@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.5](https://github.com/domsinclair/ishmaelphp-starter/compare/v0.7.4...v0.7.5) (2026-01-01)
+
+
+### Bug Fixes
+
+* Improved the mcp server integration for ide users without the plugin, new information in the docs and readme. ([db386eb](https://github.com/domsinclair/ishmaelphp-starter/commit/db386eb6c3a46f1965159b087ddc69787ba2f470))
+
 ## [0.7.4](https://github.com/domsinclair/ishmaelphp-starter/compare/v0.7.3...v0.7.4) (2026-01-01)
 
 
