@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.6](https://github.com/domsinclair/ishmaelphp-starter/compare/v0.7.5...v0.7.6) (2026-01-02)
+
+
+### Bug Fixes
+
+* Improved documentation and added module php file to satisfy mcp server and framework requirements. ([9f11eb2](https://github.com/domsinclair/ishmaelphp-starter/commit/9f11eb2bf2e8bae3909c95a48256b97038ebb72c))
+
 ## [0.7.5](https://github.com/domsinclair/ishmaelphp-starter/compare/v0.7.4...v0.7.5) (2026-01-01)
 
 
