@@ -57,6 +57,11 @@ This tool automatically sets up IDE "Run Configurations," allowing you to execut
 *   **Action**: Generates `.xml` files in `.idea/runConfigurations/` for common tasks like `help`, `migrate`, and `make:module`.
 *   **How to use**: Ask your AI assistant to "Set up my IDE run configurations for Ishmael."
 
+## Metric Testing
+
+No formal metric tests are published for the Ishmael Php Framework.  This is a deliberate choice because we believe that you should actively test framework metrics on your own hardware so that you can see **exactly** what you are getting.
+
+The recomended starting point for you to explore metric testing the framework is [here](https://github.com/domsinclair/ishmaelphp-eval). This is a simple document repository but it will guide you on exactly what metric tests are and how you can test Ishmael Php if you so wish.
 
 ## License
 

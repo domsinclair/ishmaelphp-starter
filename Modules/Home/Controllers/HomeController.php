@@ -3,18 +3,14 @@ declare(strict_types=1);
 
 namespace Modules\Home\Controllers;
 
+use Ishmael\Core\Controller;
 use Ishmael\Core\Http\Response;
 
-final class HomeController
+final class HomeController extends Controller
 {
     public function index(): Response
     {
-        $body = <<<HTML
-        <h1>Welcome to IshmaelPHP Starter</h1>
-        <p>If you can see this page, your starter app is running.</p>
-        <p>Try the JSON endpoint at <code>/home/api</code>.</p>
-        HTML;
-        return Response::html($body);
+        return Response::html($this->view('welcome'));
     }
 
     public function api(): Response
