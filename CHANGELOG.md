@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.7](https://github.com/domsinclair/ishmaelphp-starter/compare/v0.7.6...v0.7.7) (2026-01-09)
+
+
+### Bug Fixes
+
+* Improvements to support Retrieval Augmented Generation. ([a02f14c](https://github.com/domsinclair/ishmaelphp-starter/commit/a02f14c781ca59fc81bc5763f98bdf266292b055))
+
 ## [0.7.6](https://github.com/domsinclair/ishmaelphp-starter/compare/v0.7.5...v0.7.6) (2026-01-02)
 
 
