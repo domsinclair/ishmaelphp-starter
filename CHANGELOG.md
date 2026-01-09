@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.8](https://github.com/domsinclair/ishmaelphp-starter/compare/v0.7.7...v0.7.8) (2026-01-09)
+
+
+### Bug Fixes
+
+* home module routes updated. ([234d16f](https://github.com/domsinclair/ishmaelphp-starter/commit/234d16fae3c8a1408ab1393d3c86b55620738ff5))
+
 ## [0.7.7](https://github.com/domsinclair/ishmaelphp-starter/compare/v0.7.6...v0.7.7) (2026-01-09)
 
 
