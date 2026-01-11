@@ -57,6 +57,19 @@ This tool automatically sets up IDE "Run Configurations," allowing you to execut
 *   **Action**: Generates `.xml` files in `.idea/runConfigurations/` for common tasks like `help`, `migrate`, and `make:module`.
 *   **How to use**: Ask your AI assistant to "Set up my IDE run configurations for Ishmael."
 
+Be sure to consult the following documents in the guide section of the Docs.
+* Ai Manifesto
+* Conventions
+
+and in the reference/modules section
+* Rag Configuration
+
+## PhpStorm Integration
+
+A plugin has been developed to integrate Ishmael with PhpStorm. This plugin automates the setup of run configurations for common tasks, making it easier to execute `ish` commands directly from PhpStorm.
+It adds a menu (Ishmael) to the main menu that provides access to all the Cli commands and a custom Tool window which, amongst other things, provides access to the documentation.
+The plugin and mcp server has been designed to work in parralel and provide a rich end user experience for end users of the IshmaelPhp framework.
+
 ## Metric Testing
 
 No formal metric tests are published for the Ishmael Php Framework.  This is a deliberate choice because we believe that you should actively test framework metrics on your own hardware so that you can see **exactly** what you are getting.
