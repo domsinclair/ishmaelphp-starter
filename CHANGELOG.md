@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.9](https://github.com/domsinclair/ishmaelphp-starter/compare/v0.7.8...v0.7.9) (2026-01-11)
+
+
+### Bug Fixes
+
+* small Ai improvements. ([91e470d](https://github.com/domsinclair/ishmaelphp-starter/commit/91e470dcfbabd34a5b0ee3bd0444d7d7a69f91a1))
+
 ## [0.7.8](https://github.com/domsinclair/ishmaelphp-starter/compare/v0.7.7...v0.7.8) (2026-01-09)
 
 
