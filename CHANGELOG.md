@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.10](https://github.com/domsinclair/ishmaelphp-starter/compare/v0.7.9...v0.7.10) (2026-01-12)
+
+
+### Miscellaneous Chores
+
+* documentation improvements for uploads and storage ([30d8ef3](https://github.com/domsinclair/ishmaelphp-starter/commit/30d8ef34380360032867b39b52cce1c5f58db780))
+
 ## [0.7.9](https://github.com/domsinclair/ishmaelphp-starter/compare/v0.7.8...v0.7.9) (2026-01-11)
 
 
