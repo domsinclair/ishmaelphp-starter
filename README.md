@@ -58,8 +58,13 @@ This tool automatically sets up IDE "Run Configurations," allowing you to execut
 *   **How to use**: Ask your AI assistant to "Set up my IDE run configurations for Ishmael."
 
 Be sure to consult the following documents in the guide section of the Docs.
+* Ai Collaboration
 * Ai Manifesto
 * Conventions
+
+in the how-to section
+* Create a Module
+* Framing Questions
 
 and in the reference/modules section
 * Rag Configuration
