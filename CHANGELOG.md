@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.12](https://github.com/domsinclair/ishmaelphp-starter/compare/v0.7.11...v0.7.12) (2026-01-16)
+
+
+### Miscellaneous Chores
+
+* documentation improvements for Ai agent feature pack interaction ([166e393](https://github.com/domsinclair/ishmaelphp-starter/commit/166e393bac04f448761efc40db320f32a9cd5493))
+
 ## [0.7.11](https://github.com/domsinclair/ishmaelphp-starter/compare/v0.7.10...v0.7.11) (2026-01-13)
 
 
