@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.15](https://github.com/domsinclair/ishmaelphp-starter/compare/v0.7.14...v0.7.15) (2026-01-23)
+
+
+### Miscellaneous Chores
+
+* added documentation for intent mapping ([eb0f9ac](https://github.com/domsinclair/ishmaelphp-starter/commit/eb0f9ac0e2b145a876f210d38dff28568aee5f13))
+
 ## [0.7.14](https://github.com/domsinclair/ishmaelphp-starter/compare/v0.7.13...v0.7.14) (2026-01-23)
 
 
