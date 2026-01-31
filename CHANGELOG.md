@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.16](https://github.com/domsinclair/ishmaelphp-starter/compare/v0.7.15...v0.7.16) (2026-01-31)
+
+
+### Miscellaneous Chores
+
+* added documentation for Semantic framework map ([8ed37b5](https://github.com/domsinclair/ishmaelphp-starter/commit/8ed37b5398a7a12bca857a74b97895b4c40810a2))
+
 ## [0.7.15](https://github.com/domsinclair/ishmaelphp-starter/compare/v0.7.14...v0.7.15) (2026-01-23)
 
 
