@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.17](https://github.com/domsinclair/ishmaelphp-starter/compare/v0.7.16...v0.7.17) (2026-02-10)
+
+
+### Miscellaneous Chores
+
+* added documentation for mcp roles ([4b4c7ef](https://github.com/domsinclair/ishmaelphp-starter/commit/4b4c7efaeb866a06e5edcec82657c4ffeeb9d680))
+
 ## [0.7.16](https://github.com/domsinclair/ishmaelphp-starter/compare/v0.7.15...v0.7.16) (2026-01-31)
 
 
