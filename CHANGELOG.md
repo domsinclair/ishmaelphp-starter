@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.18](https://github.com/domsinclair/ishmaelphp-starter/compare/v0.7.17...v0.7.18) (2026-02-25)
+
+
+### Miscellaneous Chores
+
+* document event bus ([988a2d9](https://github.com/domsinclair/ishmaelphp-starter/commit/988a2d9782a2bcf34fa272f6fbe0e2adcec5eb16))
+
 ## [0.7.17](https://github.com/domsinclair/ishmaelphp-starter/compare/v0.7.16...v0.7.17) (2026-02-10)
 
 
